@@ -2,7 +2,9 @@
 .SYNOPSIS
     This script detects if the version of Intel Chipset Device Software installed on the device is the latest version.
 .DESCRIPTION
-    This script follows standard PowerShell scripting conventions for detection logic.
+    This script is designed exclusively for Windows environments. 
+    It queries the Windows Registry (HKLM Uninstall keys) to detect whether Intel Chipset Device Software is installed and whether the installed version meets or exceeds the expected minimum version. 
+    It is intended for use with Windows-based endpoint management and detection workflows (e.g., Intune, SCCM, or similar deployment tools) and will not run on non-Windows platforms, as it relies on the Windows Registry provider and .NET Framework classes unavailable outside Windows.
 .EXAMPLE
     ./Detect-IntelChipset.ps1
 .NOTES
