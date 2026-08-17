@@ -6,7 +6,7 @@
 .EXAMPLE
     ./Detect-IntelChipset.ps1
 .NOTES
-    NAME: Detect-IntelChipset.ps1
+    NAME: Detect-IntelChipsetVersion.ps1
     CREATION DATE: 03/2025
     LAST UPDATE: 03/2025
 #>
